@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keşif - Gizlilik Politikası</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0e27;
+            color: #e0e0e0;
+            line-height: 1.8;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 48px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+        }
+        .header h1 {
+            font-size: 32px;
+            color: #d4af37;
+            margin-bottom: 8px;
+        }
+        .header p {
+            color: #999;
+            font-size: 14px;
+        }
+        h2 {
+            color: #d4af37;
+            font-size: 20px;
+            margin-top: 36px;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+        }
+        p {
+            margin-bottom: 12px;
+            color: #ccc;
+        }
+        ul {
+            margin: 12px 0 12px 24px;
+            color: #ccc;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        strong {
+            color: #e0e0e0;
+        }
+        .footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(212, 175, 55, 0.3);
+            text-align: center;
+            color: #666;
+            font-size: 13px;
+        }
+        a {
+            color: #d4af37;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Keşif</h1>
+            <p>Sosyal Harita & Keşif Uygulaması — Gizlilik Politikası</p>
+        </div>
+
+        <p><strong>Son güncelleme:</strong> 20 Temmuz 2026</p>
+
+        <p>Bu gizlilik politikası, <strong>Keşif</strong> mobil uygulamasını ("Uygulama") kullanan kullanıcıların kişisel verilerinin nasıl toplandığını, kullanıldığını, saklandığını ve korunduğunu açıklamaktadır.</p>
+
+        <h2>1. Toplanan Veriler</h2>
+        <p>Uygulamamız aşağıdaki verileri toplayabilir:</p>
+        <ul>
+            <li><strong>Hesap Bilgileri:</strong> E-posta adresi, kullanıcı adı ve profil fotoğrafı (kayıt sırasında).</li>
+            <li><strong>Konum Verileri:</strong> Cihazınızın anlık konum bilgisi (harita özellikleri ve yakındaki mekanları göstermek için).</li>
+            <li><strong>Kullanıcı İçerikleri:</strong> Mekan puanlamaları, check-in (gittim) işaretlemeleri ve favori listeleri.</li>
+            <li><strong>Cihaz Bilgileri:</strong> Cihaz türü ve işletim sistemi versiyonu (hata ayıklama amacıyla).</li>
+        </ul>
+
+        <h2>2. Verilerin Kullanım Amacı</h2>
+        <p>Topladığımız verileri aşağıdaki amaçlarla kullanırız:</p>
+        <ul>
+            <li>Harita üzerinde size en yakın mekanları, eczaneleri ve etkinlikleri göstermek.</li>
+            <li>Arkadaşlarınızın paylaşımlarını ve önerilerini görüntülemenizi sağlamak.</li>
+            <li>Mekan puanlama ve popülerlik skoru hesaplama sistemini çalıştırmak.</li>
+            <li>Uygulama deneyiminizi geliştirmek ve hataları gidermek.</li>
+            <li>Hesabınızın güvenliğini sağlamak.</li>
+        </ul>
+
+        <h2>3. Konum Verisi Kullanımı</h2>
+        <p>Keşif uygulaması, temel işlevlerini yerine getirebilmek için <strong>konum izni</strong> istemektedir. Konum verileriniz:</p>
+        <ul>
+            <li>Yalnızca uygulama açıkken ve aktif kullanımdayken toplanır.</li>
+            <li>Arka planda konum takibi <strong>yapılmaz</strong>.</li>
+            <li>Üçüncü taraf reklam veya analiz şirketleriyle <strong>paylaşılmaz</strong>.</li>
+            <li>Yalnızca yakındaki mekanları göstermek ve rota çizmek amacıyla kullanılır.</li>
+        </ul>
+
+        <h2>4. Veri Saklama ve Güvenlik</h2>
+        <p>Verileriniz <strong>Supabase</strong> bulut altyapısında güvenli olarak saklanmaktadır. Verilerinizi korumak için aşağıdaki önlemleri alıyoruz:</p>
+        <ul>
+            <li>Tüm veri iletişimi SSL/TLS şifreleme ile korunur.</li>
+            <li>Veritabanı erişimleri satır düzeyinde güvenlik politikalarıyla (RLS) kontrol edilir.</li>
+            <li>Şifreler tek yönlü hash algoritmasıyla saklanır, düz metin olarak depolanmaz.</li>
+        </ul>
+
+        <h2>5. Üçüncü Taraf Hizmetler</h2>
+        <p>Uygulamamız aşağıdaki üçüncü taraf hizmetlerini kullanmaktadır:</p>
+        <ul>
+            <li><strong>Supabase:</strong> Kimlik doğrulama ve veritabanı hizmetleri.</li>
+            <li><strong>OpenStreetMap:</strong> Harita verileri (kişisel veri paylaşılmaz).</li>
+        </ul>
+
+        <h2>6. Kullanıcı Hakları</h2>
+        <p>Kullanıcılarımız aşağıdaki haklara sahiptir:</p>
+        <ul>
+            <li><strong>Erişim:</strong> Hakkınızda hangi verilerin toplandığını öğrenme.</li>
+            <li><strong>Düzeltme:</strong> Yanlış veya eksik bilgilerinizi güncelleme.</li>
+            <li><strong>Silme:</strong> Hesabınızı ve tüm verilerinizi kalıcı olarak silme talebinde bulunma.</li>
+            <li><strong>İzin yönetimi:</strong> Konum iznini cihaz ayarlarından istediğiniz zaman kapatabilirsiniz.</li>
+        </ul>
+
+        <h2>7. Çocukların Gizliliği</h2>
+        <p>Uygulamamız 13 yaşın altındaki çocuklara yönelik değildir. Bilerek 13 yaşın altındaki bireylerden kişisel veri toplamıyoruz. Eğer 13 yaşın altındaki bir çocuğun veri paylaştığını fark ederseniz, lütfen bizimle iletişime geçin.</p>
+
+        <h2>8. Politika Değişiklikleri</h2>
+        <p>Bu gizlilik politikası zaman zaman güncellenebilir. Önemli değişiklikler olması durumunda uygulama içinden bildirim yapılacaktır. Politikanın en güncel hali her zaman bu sayfada yayınlanacaktır.</p>
+
+        <h2>9. İletişim</h2>
+        <p>Gizlilik politikamızla ilgili sorularınız için bizimle iletişime geçebilirsiniz:</p>
+        <ul>
+            <li><strong>E-posta:</strong> destek@kesifapp.com</li>
+        </ul>
+
+        <div class="footer">
+            <p>© 2026 Keşif - Sosyal Harita & Keşif Uygulaması. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+</body>
+</html>
